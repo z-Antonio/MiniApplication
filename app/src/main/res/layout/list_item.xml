@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="80dp">
+
+    <ImageView
+        android:id="@+id/id_item_image"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_centerVertical="true"/>
+
+    <TextView
+        android:id="@+id/id_item_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/id_item_image"
+        android:layout_alignTop="@+id/id_item_image"
+        android:layout_marginLeft="10dp"
+        />
+
+    <TextView
+        android:id="@+id/id_item_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/id_item_image"
+        android:layout_toEndOf="@+id/id_item_name"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        />
+
+    <ProgressBar
+        android:id="@+id/id_item_progress"
+        android:layout_width="100dp"
+        android:layout_height="20dp"/>
+
+    <Button
+        android:id="@+id/id_item_btn"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="10dp"/>
+
+</RelativeLayout>
